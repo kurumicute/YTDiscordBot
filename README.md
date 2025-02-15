@@ -48,12 +48,12 @@ volume = 0.1
 token = 你的Discord Bot Token
 playlist = 20
 ffmpeg_path = ffmpeg-7.1-essentials_build/bin/ffmpeg.exe
-```
-cookies_path: cookies.txt 檔案的路徑。
-volume: 預設音量（範圍 0.0 ~ 2.0）。
-token: 你的 Discord 機器人 Token。
-playlist: 播放清單最大筆數（預設 20 首）。
-ffmpeg_path: ffmpeg 執行檔的完整路徑。
+```  
+cookies_path: cookies.txt 檔案的路徑。  
+volume: 預設音量（範圍 0.0 ~ 2.0）。  
+token: 你的 Discord 機器人 Token。  
+playlist: 播放清單最大筆數（預設 20 首）。  
+ffmpeg_path: ffmpeg 執行檔的完整路徑。  
 
 ### 5.執行機器人
 一切就緒後，在虛擬環境中執行以下指令啟動機器人：
