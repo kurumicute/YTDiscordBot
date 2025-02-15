@@ -14,7 +14,7 @@
   ```
   python -m venv venv
   ```
-### 2.#啟動虛擬環境：
+### 2.啟動虛擬環境：
 Windows:
 ```
 venv\Scripts\activate
