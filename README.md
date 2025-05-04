@@ -3,7 +3,12 @@
 - **Python 3.8+**  
 - **ffmpeg**  
 - 一個有效的 **cookies.txt** 檔案（供 yt-dlp 使用，避免因年齡或區域限制而無法存取影片）
-
+使用 yt-dlp：
+在命令列中使用以下指令，將匯出的 cookies 檔案提供給 yt-dlp：
+```
+yt-dlp --cookies cookies.txt https://www.youtube.com/
+```
+定期更新cookie.txt避免有不能播放的問題
 ## 安裝說明
 
 ### 1. 建立與啟動 Python 虛擬環境
