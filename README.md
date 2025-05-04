@@ -2,13 +2,7 @@
 
 - **Python 3.8+**  
 - **ffmpeg**  
-- 一個有效的 **cookies.txt** 檔案（供 yt-dlp 使用，避免因年齡或區域限制而無法存取影片）  
-使用 yt-dlp：
-在命令列中使用以下指令，將匯出的 cookies 檔案提供給 yt-dlp：
-```
-yt-dlp --cookies cookies.txt https://www.youtube.com/
-```
-定期更新cookie.txt避免有不能播放的問題
+- 一個有效的 **cookies.txt** 檔案（供 yt-dlp 使用，避免因年齡或區域限制而無法存取影片）
 ## 安裝說明
 
 ### 1. 建立與啟動 Python 虛擬環境
@@ -32,10 +26,11 @@ pip install -r requirements.txt
 ```
 ### 3. 設定 cookies.txt
 取得 cookies.txt：
-你可以透過瀏覽器外掛（例如 Chrome 或 Firefox 的 cookies.txt 外掛）來匯出 cookies。
-
-放置位置：
-將取得的 cookies.txt 放置在專案根目錄，或依照你的需求修改 config.txt 中的 cookies_path 欄位以指定正確路徑。
+在CMD中使用以下指令，將匯出的 cookies 檔案提供給 yt-dlp：
+```
+yt-dlp --cookies cookies.txt https://www.youtube.com/
+```
+定期更新cookie.txt避免有不能播放的問題
 
 ### 4. 安裝 ffmpeg
 下載：
