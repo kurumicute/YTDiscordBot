@@ -2,7 +2,7 @@
 
 - **Python 3.8+**  
 - **ffmpeg**  
-- 一個有效的 **cookies.txt** 檔案（供 yt-dlp 使用，避免因年齡或區域限制而無法存取影片）
+- 一個有效的 **cookies.txt** 檔案（供 yt-dlp 使用，避免因年齡或區域限制而無法存取影片）  
 使用 yt-dlp：
 在命令列中使用以下指令，將匯出的 cookies 檔案提供給 yt-dlp：
 ```
