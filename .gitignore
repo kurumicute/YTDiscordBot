@@ -1,0 +1,16 @@
+# 機密 / 個人設定（請勿上傳）
+config.txt
+cookies.txt
+*.cookies.txt
+guild_settings.json
+guild_settings.json.tmp
+
+# Python
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# ffmpeg
+ffmpeg*/
+*.exe

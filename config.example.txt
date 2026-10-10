@@ -1,0 +1,8 @@
+[DEFAULT]
+cookies_path = cookies.txt
+volume = 0.1
+token = 你的Discord Bot Token
+playlist = 20
+ffmpeg_path = ffmpeg-7.1-essentials_build/bin/ffmpeg.exe
+prefix = !
+idle_timeout = 300
